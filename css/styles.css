@@ -1,0 +1,180 @@
+/* BODY  */
+body{
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+p {
+    color: #7B7979;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+h3 {
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+.section-padding {
+    padding: 7% 15%;
+}
+
+ /* <!-- Top Section --> */
+
+/* Title section */
+#title {
+    background-color: #FF4C68;
+    color: #fff;
+    text-align: left;
+}
+
+.container-fluid{
+    padding: 3% 12% 7%;
+}
+
+
+/* <!-- Nav Bar  Sub-Section--> */
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 7px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+/* <!-- Title  Sub-Section--> */
+.big-heading {
+    font-weight: 800;
+    font-size: 3.2rem;
+    line-height: 1.5;
+}
+
+.download-button {
+    margin: 7% 2% 5%;
+}
+
+.title-image{
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    left: 10%;
+}
+
+
+/* <!-- Features Section--> */
+#features{
+    background-color: #FFF;
+    position: relative;
+    z-index: 1;
+}
+
+.icons{
+    color: #EF8172;
+    transition: color .9s;
+    margin-bottom: 5%;
+}
+
+.icons:hover{
+    color: #FF4C68;
+}
+
+.feature-cols{
+    padding: 3%;
+}
+
+
+
+/* <!-- Testimonials Section--> */
+#testimonials{
+    background-color: #EF8172;
+    color: #FFF;
+}
+
+.testimonial-image {
+    width: 15%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+
+
+/* <!-- Press  Section--> */
+#press {
+    background-color: #EF8172;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+
+/* <!-- Pricing Section--> */
+#pricing {
+    padding: 100px;
+}
+
+.pricing-columns {
+    padding: 3% 2%;
+}
+
+.card-header {
+    border-color:  #EF8172;
+}
+
+.card-last-para {
+    padding-bottom: 14%;
+}
+
+
+/* <!-- Call to Action  Section--> */
+#cta {
+    background-color: #FF4C68;
+    color: #FFF;
+}
+
+
+/* <!-- Footer  Section--> */
+#footer.section-padding {
+    color: #FFF;
+    padding: 7% 15% 2%;
+}
+
+.foot-icons {
+    color: #000;
+    margin: 1% 1% 2%;
+    transition: color .9s;
+}
+.foot-icons:hover{
+    color: #FF4C68;
+
+}
+
+/* Media Query Section*/
+
+@media (max-width: 991px) {
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+
+    #title {
+        text-align: center;
+    }
+
+}
